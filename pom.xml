@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rushi</groupId>
 	<artifactId>student-reg-webapp</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
 		<java.version>17</java.version>
@@ -21,6 +21,16 @@
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
 		<sonar.exclusions>**/*.css</sonar.exclusions>
 	</properties>
+	<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://65.2.37.233:8081/repository/sweetytest/</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://65.2.37.233:8081/repository/nexus-test/</url>
+  </snapshotRepository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
