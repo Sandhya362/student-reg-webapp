@@ -24,11 +24,11 @@
 	<distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://65.2.37.233:8081/repository/sweetytest/</url>
+    <url>http://13.201.78.220:8081/repository/newdemo/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://65.2.37.233:8081/repository/nexus-test/</url>
+    <url>http://13.201.78.220:8081/repository/newdemo-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 	<dependencies>
