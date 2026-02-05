@@ -24,11 +24,11 @@
 	<distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://13.201.78.220:8081/repository/newdemo/</url>
+    <url>http://13.236.178.242:8081/repository/registration/</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.201.78.220:8081/repository/newdemo-snapshot/</url>
+    <url>http://13.236.178.242:8081/repository/regrastration-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 	<dependencies>
