@@ -28,7 +28,7 @@
   </repository>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.236.178.242:8081/repository/regrastration-snapshot/</url>
+    <url>http://13.236.178.242:8081/repository/registration-snapshot//</url>
   </snapshotRepository>
 </distributionManagement>
 	<dependencies>
